@@ -36,5 +36,13 @@ public class TipoSolicitud implements java.io.Serializable {
 		this.tipoSolicitud = tipoSolicitud;
 		this.grupo = grupo;
 	}
+	
+	@Override
+    public String toString() {
+        return "TipoSolicitud{" +
+                "tipoSolicitud='" + tipoSolicitud + "'" +
+                ", grupo='" + grupo + "'" +
+                "}";
+    }
 
 }
