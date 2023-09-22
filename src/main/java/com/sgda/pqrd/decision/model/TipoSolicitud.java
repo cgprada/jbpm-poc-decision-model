@@ -39,7 +39,7 @@ public class TipoSolicitud implements java.io.Serializable {
 	
 	@Override
     public String toString() {
-        return "TipoSolicitud{" +
+        return "TipoSolicitud {" +
                 "tipoSolicitud='" + tipoSolicitud + "'" +
                 ", grupo='" + grupo + "'" +
                 "}";
